@@ -1,0 +1,17 @@
+{
+  "name": "hubfolio",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "O Hubfolio é uma biblioteca Node.js desenvolvida para simplificar a criação de portfólios pessoais com base no GitHub. Com a facilidade de uso e personalização em mente, nossa biblioteca oferece uma solução eficaz para transformar seus projetos e contribuições no GitHub em um portfólio online impressionante.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "bin/hubfolio.js",
+  "author": "AndersonVilela",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "got": "^14.0.0"
+  }
+}
