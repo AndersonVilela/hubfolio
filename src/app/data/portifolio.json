@@ -1,9 +1,69 @@
 {
-    "userInfo": {
-        "name": "",
-        "username": "",
-        "backgroundImage": "",
-        "socialLinks": [],
-        "repositories": []
-    }
+  "userInfo": {
+    "name": "Anderson Vilela",
+    "username": "AndersonVilela",
+    "profileImagePath": "https://avatars.githubusercontent.com/u/104267665?v=4",
+    "backgroundImage": "",
+    "socialLinks": [],
+    "repositories": [
+      {
+        "name": "AndersonVilela",
+        "description": "",
+        "url": "https://github.com/AndersonVilela/AndersonVilela",
+        "stars": 2,
+        "forks": false,
+        "language": "Unknown"
+      },
+      {
+        "name": "blogNews",
+        "description": "",
+        "url": "https://github.com/AndersonVilela/blogNews",
+        "stars": 0,
+        "forks": false,
+        "language": "Vue"
+      },
+      {
+        "name": "border-radius-customizer",
+        "description": "",
+        "url": "https://github.com/AndersonVilela/border-radius-customizer",
+        "stars": 2,
+        "forks": false,
+        "language": "CSS"
+      },
+      {
+        "name": "Fruit_Crush",
+        "description": "",
+        "url": "https://github.com/AndersonVilela/Fruit_Crush",
+        "stars": 0,
+        "forks": false,
+        "language": "C"
+      },
+      {
+        "name": "old_repositories",
+        "description": "",
+        "url": "https://github.com/AndersonVilela/old_repositories",
+        "stars": 0,
+        "forks": false,
+        "language": "Vue"
+      },
+      {
+        "name": "faculdade-petshop",
+        "description": "",
+        "url": "https://github.com/lucasemn1/faculdade-petshop",
+        "stars": 0,
+        "forks": false,
+        "language": "Java"
+      },
+      {
+        "name": "Formulario-Vue",
+        "description": "",
+        "url": "https://github.com/MatheusPessoa06/Formulario-Vue",
+        "stars": 0,
+        "forks": false,
+        "language": "Vue"
+      }
+    ],
+    "forks": [],
+    "theme": "dark"
+  }
 }
