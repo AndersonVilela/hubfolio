@@ -11,32 +11,11 @@ async function buildPortifolio(username) {
 
         const user = await getUser(username);
 
-        const repos = await requestRepos(username);
 
         portifolioData.userInfo.name = user.name || '';
         portifolioData.userInfo.username = user.login || '';
         portifolioData.userInfo.profileImagePath = user.avatar_url || '';
 
-        // Inicializar as listas repositories e forks
-        portifolioData.userInfo.repositories = [];
-        portifolioData.userInfo.forks = [];
-
-        for (const repo of repos) {
-            const repoInfo = {
-                name: repo.name,
-                description: repo.description || '',
-                url: repo.html_url,
-                stars: repo.stargazers_count,
-                forks: repo.fork,
-                language: repo.language || 'Unknown',
-            };
-
-            if (repo.fork) {
-                portifolioData.userInfo.forks.push(repoInfo);
-            } else {
-                portifolioData.userInfo.repositories.push(repoInfo);
-            }
-        }
 
         const updatedData = JSON.stringify(portifolioData, null, 2);
 

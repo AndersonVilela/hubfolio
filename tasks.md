@@ -1,0 +1,6 @@
+- criar o portifolio com as infos do json
+- adicionar o content do readme para a visualizaão unica do repositorio
+- adicionar o content do readme para a vizualizacao unica do fork
+- adicionar admin
+- adicionar blog ao admin
+- adicionar blog ao portifolio
