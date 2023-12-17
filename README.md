@@ -1,4 +1,3 @@
----
 
 # Hubfolio
 
@@ -50,9 +49,7 @@ Escolha o tema que melhor se adapta ao seu estilo:
 - `dark`
 - `light`
 
+
 ## Licença
 
 Este projeto é licenciado sob a Licença MIT.
----
-
-Lembre-se de personalizar o README conforme necessário, adicionando links reais, informações específicas do seu projeto e ajustando o conteúdo conforme a evolução d
